@@ -1,0 +1,47 @@
+$date
+        2023-Jun-14 18:14:25
+$end
+$version
+        Vivado v2020.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 32 " wr_burst_data [31:0] $end
+$var reg 32 B rd_burst_addr [31:0] $end
+$var reg 32 b rd_burst_data [31:0] $end
+$var reg 32 $" rd_wr_burst_len [31:0] $end
+$var reg 32 D" wr_burst_addr [31:0] $end
+$var reg 1 d" clk $end
+$var reg 1 e" rd_burst_data_valid $end
+$var reg 1 f" rd_burst_finish $end
+$var reg 1 g" rd_burst_req $end
+$var reg 1 h" wr_burst_data_req $end
+$var reg 1 i" wr_burst_finish $end
+$var reg 1 j" wr_burst_req $end
+$var reg 1 k" _TRIGGER $end
+$var reg 1 l" _WINDOW $end
+$var reg 1 m" _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b1000000000000000000000000 B
+b11111001110011010000010000100001 b
+b1 $"
+b0 D"
+0d"
+0e"
+0f"
+0g"
+0h"
+0i"
+0j"
+0k"
+1l"
+0m"
+$end
+#512
+1k"

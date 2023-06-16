@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May 27 16:16:31 2023
+# Process ID: 14508
+# Current directory: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/xsim.dir/CTRL_machine_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/xsim.dir/CTRL_machine_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat May 27 16:16:31 2023...

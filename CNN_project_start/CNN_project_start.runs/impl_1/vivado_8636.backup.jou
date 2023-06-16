@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun 15 11:58:35 2023
+# Process ID: 8636
+# Current directory: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1
+# Command line: vivado.exe -log Top_YOLOv3_Tiny_Project.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_YOLOv3_Tiny_Project.tcl -notrace
+# Log file: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/Top_YOLOv3_Tiny_Project.vdi
+# Journal file: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Top_YOLOv3_Tiny_Project.tcl -notrace

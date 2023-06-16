@@ -1,0 +1,264 @@
+timestamp=[2023-04-20 15:44:23], mode=WORKBENCH_START, duration=0:00:07.879, duration_ms=7879, data={}
+timestamp=[2023-04-20 15:44:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.619, duration_ms=619, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-04-20 15:44:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:04.839, duration_ms=4839, data={}
+timestamp=[2023-04-20 15:47:01], mode=APP_CREATION, duration=0:00:48.687, duration_ms=48687, data={name=dma_inr, project_type=sdk, os=standalone, processor=psu_cortexa53, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2023-04-20 15:49:10], mode=APP_CREATION, duration=0:00:02.550, duration_ms=2550, data={name=xaxidma_example_simple_poll_1, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=design_1_wrapper, application_type=application}
+timestamp=[2023-04-20 15:54:16], mode=PLATFORM_GENERATION, duration=0:01:42.588, duration_ms=102588, data={name=design_1_wrapper}
+timestamp=[2023-04-20 15:54:20], mode=BUILD, duration=0:00:03.241, duration_ms=3241, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-04-20 15:54:34], mode=BUILD, duration=0:00:11.805, duration_ms=11805, data={name=xaxidma_example_simple_poll_1_system, configuration=Debug, clean_build=false}
+timestamp=[2023-04-20 17:50:29], mode=WORKBENCH_START, duration=0:00:30.902, duration_ms=30902, data={}
+timestamp=[2023-04-20 17:50:31], mode=WORKBENCH_UI_INIT, duration=0:00:02.042, duration_ms=2042, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-04-20 17:50:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.489, duration_ms=489, data={}
+timestamp=[2023-04-20 18:02:50], mode=WORKBENCH_START, duration=0:00:15.617, duration_ms=15617, data={}
+timestamp=[2023-04-20 18:02:53], mode=WORKBENCH_UI_INIT, duration=0:00:02.737, duration_ms=2737, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-04-20 18:02:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.107, duration_ms=107, data={}
+timestamp=[2023-04-20 18:19:32], mode=PLATFORM_GENERATION, duration=0:01:09.869, duration_ms=69869, data={name=design_1_wrapper}
+timestamp=[2023-04-20 18:19:34], mode=BUILD, duration=0:00:01.592, duration_ms=1592, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-04-20 18:19:44], mode=BUILD, duration=0:00:08.285, duration_ms=8285, data={name=xaxidma_example_simple_poll_1_system, configuration=Debug, clean_build=false}
+timestamp=[2023-04-20 18:21:48], mode=BUILD, duration=0:00:01.102, duration_ms=1102, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-04-20 18:21:56], mode=BUILD, duration=0:00:07.170, duration_ms=7170, data={name=xaxidma_example_simple_poll_1_system, configuration=Debug, clean_build=false}
+timestamp=[2023-04-20 18:38:39], mode=BUILD, duration=0:00:00.925, duration_ms=925, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-04-25 13:16:54], mode=WORKBENCH_START, duration=0:00:27.372, duration_ms=27372, data={}
+timestamp=[2023-04-25 13:16:56], mode=WORKBENCH_UI_INIT, duration=0:00:02.170, duration_ms=2170, data={editors_count=8, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-04-25 13:16:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.018, duration_ms=1018, data={}
+timestamp=[2023-05-03 14:45:16], mode=WORKBENCH_START, duration=0:00:26.975, duration_ms=26975, data={}
+timestamp=[2023-05-03 14:45:19], mode=WORKBENCH_UI_INIT, duration=0:00:02.531, duration_ms=2531, data={editors_count=13, platform_editors_count=7, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-03 14:45:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.881, duration_ms=881, data={}
+timestamp=[2023-05-03 15:14:05], mode=PLATFORM_GENERATION, duration=0:00:59.489, duration_ms=59489, data={name=design_1_wrapper}
+timestamp=[2023-05-03 15:14:07], mode=BUILD, duration=0:00:01.355, duration_ms=1355, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-03 15:20:50], mode=BUILD, duration=0:00:00.338, duration_ms=338, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-03 15:26:51], mode=BUILD, duration=0:00:01.614, duration_ms=1614, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-03 15:30:14], mode=BUILD, duration=0:00:00.448, duration_ms=448, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-03 15:30:43], mode=BUILD, duration=0:00:00.927, duration_ms=927, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-03 15:31:51], mode=BUILD, duration=0:00:01.607, duration_ms=1607, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-03 15:32:08], mode=BUILD, duration=0:00:02.711, duration_ms=2711, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-03 15:35:57], mode=BUILD, duration=0:00:01.405, duration_ms=1405, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-05 13:30:34], mode=WORKBENCH_START, duration=0:00:24.550, duration_ms=24550, data={}
+timestamp=[2023-05-05 13:30:36], mode=WORKBENCH_UI_INIT, duration=0:00:02.257, duration_ms=2257, data={editors_count=14, platform_editors_count=8, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-05 13:30:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.690, duration_ms=690, data={}
+timestamp=[2023-05-11 11:22:27], mode=WORKBENCH_START, duration=0:00:59.603, duration_ms=59603, data={}
+timestamp=[2023-05-11 11:22:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.500, duration_ms=1500, data={}
+timestamp=[2023-05-11 11:22:32], mode=WORKBENCH_UI_INIT, duration=0:00:05.204, duration_ms=5204, data={editors_count=15, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-11 15:11:42], mode=PLATFORM_GENERATION, duration=0:01:08.028, duration_ms=68028, data={name=design_1_wrapper}
+timestamp=[2023-05-11 15:11:45], mode=BUILD, duration=0:00:02.737, duration_ms=2737, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:12:52], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=true}
+timestamp=[2023-05-11 15:12:53], mode=BUILD, duration=0:00:01.667, duration_ms=1667, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:14:56], mode=BUILD, duration=0:00:01.395, duration_ms=1395, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:17:14], mode=BUILD, duration=0:00:01.258, duration_ms=1258, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:20:23], mode=WORKBENCH_START, duration=0:00:15.207, duration_ms=15207, data={}
+timestamp=[2023-05-11 15:20:25], mode=WORKBENCH_UI_INIT, duration=0:00:01.813, duration_ms=1813, data={editors_count=16, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-11 15:20:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.070, duration_ms=70, data={}
+timestamp=[2023-05-11 15:35:26], mode=PLATFORM_GENERATION, duration=0:00:03.008, duration_ms=3008, data={name=design_1_wrapper}
+timestamp=[2023-05-11 15:35:36], mode=BUILD, duration=0:00:01.331, duration_ms=1331, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:37:45], mode=BUILD, duration=0:00:01.321, duration_ms=1321, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:41:56], mode=BUILD, duration=0:00:00.734, duration_ms=734, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:57:40], mode=BUILD, duration=0:00:01.170, duration_ms=1170, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:58:10], mode=BUILD, duration=0:00:00.533, duration_ms=533, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:58:43], mode=BUILD, duration=0:00:01.195, duration_ms=1195, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:59:02], mode=BUILD, duration=0:00:01.194, duration_ms=1194, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:59:24], mode=BUILD, duration=0:00:01.245, duration_ms=1245, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 15:59:46], mode=BUILD, duration=0:00:01.126, duration_ms=1126, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 16:24:19], mode=BUILD, duration=0:00:01.071, duration_ms=1071, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 16:24:40], mode=BUILD, duration=0:00:00.806, duration_ms=806, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 18:41:43], mode=BUILD, duration=0:00:00.425, duration_ms=425, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 18:42:01], mode=BUILD, duration=0:00:00.715, duration_ms=715, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-11 18:43:59], mode=BUILD, duration=0:00:00.623, duration_ms=623, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-12 11:06:41], mode=WORKBENCH_START, duration=0:00:26.484, duration_ms=26484, data={}
+timestamp=[2023-05-12 11:06:43], mode=WORKBENCH_UI_INIT, duration=0:00:01.890, duration_ms=1890, data={editors_count=19, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-12 11:06:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.219, duration_ms=219, data={}
+timestamp=[2023-05-12 11:12:57], mode=BUILD, duration=0:00:00.797, duration_ms=797, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=true}
+timestamp=[2023-05-12 11:13:12], mode=BUILD, duration=0:00:04.433, duration_ms=4433, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-12 11:17:33], mode=PLATFORM_GENERATION, duration=0:00:07.294, duration_ms=7294, data={name=design_1_wrapper}
+timestamp=[2023-05-12 11:17:33], mode=BUILD, duration=0:00:00.156, duration_ms=156, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-12 15:26:39], mode=BUILD, duration=0:00:01.433, duration_ms=1433, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-12 15:44:07], mode=BUILD, duration=0:00:00.981, duration_ms=981, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-12 15:45:05], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-12 15:47:29], mode=BUILD, duration=0:00:00.903, duration_ms=903, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-12 15:54:56], mode=BUILD, duration=0:00:00.918, duration_ms=918, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-12 16:14:35], mode=BUILD, duration=0:00:00.437, duration_ms=437, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-18 15:03:57], mode=WORKBENCH_START, duration=0:00:18.354, duration_ms=18354, data={}
+timestamp=[2023-05-18 15:03:59], mode=WORKBENCH_UI_INIT, duration=0:00:01.765, duration_ms=1765, data={editors_count=21, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-18 15:04:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.375, duration_ms=375, data={}
+timestamp=[2023-05-19 12:16:58], mode=WORKBENCH_START, duration=0:00:24.012, duration_ms=24012, data={}
+timestamp=[2023-05-19 12:17:01], mode=WORKBENCH_UI_INIT, duration=0:00:02.172, duration_ms=2172, data={editors_count=20, platform_editors_count=9, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-19 12:17:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.437, duration_ms=437, data={}
+timestamp=[2023-05-19 12:19:49], mode=PLATFORM_GENERATION, duration=0:01:19.295, duration_ms=79295, data={name=design_1_wrapper}
+timestamp=[2023-05-19 12:20:06], mode=BUILD, duration=0:00:07.094, duration_ms=7094, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 12:20:23], mode=BUILD, duration=0:00:07.058, duration_ms=7058, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 12:36:46], mode=PLATFORM_GENERATION, duration=0:00:03.396, duration_ms=3396, data={name=design_1_wrapper}
+timestamp=[2023-05-19 12:36:53], mode=BUILD, duration=0:00:07.496, duration_ms=7496, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 12:40:10], mode=BUILD, duration=0:00:07.475, duration_ms=7475, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 12:51:09], mode=BUILD, duration=0:00:07.065, duration_ms=7065, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 12:51:28], mode=BUILD, duration=0:00:06.958, duration_ms=6958, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:03:31], mode=BUILD, duration=0:00:08.026, duration_ms=8026, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:07:30], mode=BUILD, duration=0:00:01.699, duration_ms=1699, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:11:54], mode=BUILD, duration=0:00:02.132, duration_ms=2132, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:16:32], mode=BUILD, duration=0:00:01.568, duration_ms=1568, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:21:58], mode=BUILD, duration=0:00:01.817, duration_ms=1817, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:30:56], mode=BUILD, duration=0:00:01.641, duration_ms=1641, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:34:18], mode=BUILD, duration=0:00:01.745, duration_ms=1745, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:36:23], mode=BUILD, duration=0:00:01.565, duration_ms=1565, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:39:42], mode=BUILD, duration=0:00:02.109, duration_ms=2109, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:43:41], mode=BUILD, duration=0:00:01.686, duration_ms=1686, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:47:08], mode=BUILD, duration=0:00:01.689, duration_ms=1689, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:47:14], mode=BUILD, duration=0:00:00.208, duration_ms=208, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 13:55:56], mode=BUILD, duration=0:00:01.506, duration_ms=1506, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 14:06:20], mode=BUILD, duration=0:00:01.423, duration_ms=1423, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 15:04:42], mode=BUILD, duration=0:00:00.362, duration_ms=362, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=true}
+timestamp=[2023-05-19 15:04:46], mode=BUILD, duration=0:00:04.330, duration_ms=4330, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 15:05:57], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 18:47:13], mode=WORKBENCH_START, duration=0:00:37.648, duration_ms=37648, data={}
+timestamp=[2023-05-19 18:47:16], mode=WORKBENCH_UI_INIT, duration=0:00:02.047, duration_ms=2047, data={editors_count=25, platform_editors_count=10, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-19 18:47:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.297, duration_ms=297, data={}
+timestamp=[2023-05-19 19:10:56], mode=PLATFORM_GENERATION, duration=0:00:07.060, duration_ms=7060, data={name=design_1_wrapper}
+timestamp=[2023-05-19 19:11:03], mode=BUILD, duration=0:00:06.310, duration_ms=6310, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:22:00], mode=BUILD, duration=0:00:03.861, duration_ms=3861, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:28:52], mode=BUILD, duration=0:00:02.160, duration_ms=2160, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:30:00], mode=BUILD, duration=0:00:03.805, duration_ms=3805, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:30:29], mode=BUILD, duration=0:00:00.157, duration_ms=157, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:36:07], mode=BUILD, duration=0:00:03.396, duration_ms=3396, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:36:25], mode=BUILD, duration=0:00:03.330, duration_ms=3330, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:44:28], mode=BUILD, duration=0:00:03.805, duration_ms=3805, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:44:37], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:47:49], mode=BUILD, duration=0:00:03.430, duration_ms=3430, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:50:55], mode=BUILD, duration=0:00:03.464, duration_ms=3464, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:52:51], mode=BUILD, duration=0:00:03.657, duration_ms=3657, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:58:40], mode=BUILD, duration=0:00:02.195, duration_ms=2195, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 19:59:13], mode=BUILD, duration=0:00:02.211, duration_ms=2211, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:01:19], mode=BUILD, duration=0:00:02.213, duration_ms=2213, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:02:16], mode=BUILD, duration=0:00:03.640, duration_ms=3640, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:02:50], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:28:50], mode=BUILD, duration=0:00:03.644, duration_ms=3644, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:36:34], mode=BUILD, duration=0:00:03.468, duration_ms=3468, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:41:46], mode=BUILD, duration=0:00:03.480, duration_ms=3480, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:42:02], mode=BUILD, duration=0:00:00.210, duration_ms=210, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:46:56], mode=BUILD, duration=0:00:03.174, duration_ms=3174, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:47:02], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:47:56], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:50:09], mode=BUILD, duration=0:00:03.840, duration_ms=3840, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-19 20:51:02], mode=BUILD, duration=0:00:00.143, duration_ms=143, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 19:09:09], mode=WORKBENCH_START, duration=0:00:35.091, duration_ms=35091, data={}
+timestamp=[2023-05-24 19:09:12], mode=WORKBENCH_UI_INIT, duration=0:00:03.254, duration_ms=3254, data={editors_count=27, platform_editors_count=12, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-24 19:09:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.967, duration_ms=967, data={}
+timestamp=[2023-05-24 19:21:48], mode=BUILD, duration=0:00:07.754, duration_ms=7754, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 19:29:10], mode=PLATFORM_GENERATION, duration=0:00:07.216, duration_ms=7216, data={name=design_1_wrapper}
+timestamp=[2023-05-24 19:29:11], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 19:32:56], mode=BUILD, duration=0:00:04.440, duration_ms=4440, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-24 19:45:22], mode=BUILD, duration=0:00:03.544, duration_ms=3544, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:25:20], mode=WORKBENCH_START, duration=0:00:27.388, duration_ms=27388, data={}
+timestamp=[2023-05-25 11:25:23], mode=WORKBENCH_UI_INIT, duration=0:00:03.142, duration_ms=3142, data={editors_count=28, platform_editors_count=13, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-25 11:25:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.111, duration_ms=111, data={}
+timestamp=[2023-05-25 11:29:32], mode=BUILD, duration=0:00:06.010, duration_ms=6010, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:30:14], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:34:55], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:41:38], mode=BUILD, duration=0:00:02.891, duration_ms=2891, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:48:43], mode=BUILD, duration=0:00:04.202, duration_ms=4202, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 11:55:21], mode=BUILD, duration=0:00:03.416, duration_ms=3416, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:06:36], mode=WORKBENCH_START, duration=0:00:16.943, duration_ms=16943, data={}
+timestamp=[2023-05-25 15:06:38], mode=WORKBENCH_UI_INIT, duration=0:00:01.984, duration_ms=1984, data={editors_count=28, platform_editors_count=13, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-25 15:06:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.172, duration_ms=172, data={}
+timestamp=[2023-05-25 15:33:05], mode=BUILD, duration=0:00:03.453, duration_ms=3453, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:40:44], mode=BUILD, duration=0:00:03.507, duration_ms=3507, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 15:50:08], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:23:43], mode=BUILD, duration=0:00:03.317, duration_ms=3317, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:27:18], mode=BUILD, duration=0:00:03.970, duration_ms=3970, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:30:29], mode=BUILD, duration=0:00:03.449, duration_ms=3449, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:33:14], mode=BUILD, duration=0:00:03.450, duration_ms=3450, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:46:06], mode=BUILD, duration=0:00:03.408, duration_ms=3408, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:46:20], mode=BUILD, duration=0:00:00.152, duration_ms=152, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:49:15], mode=BUILD, duration=0:00:03.304, duration_ms=3304, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:52:39], mode=BUILD, duration=0:00:03.430, duration_ms=3430, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:57:13], mode=BUILD, duration=0:00:02.063, duration_ms=2063, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:57:53], mode=BUILD, duration=0:00:02.689, duration_ms=2689, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 16:58:58], mode=BUILD, duration=0:00:02.778, duration_ms=2778, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:00:53], mode=BUILD, duration=0:00:02.088, duration_ms=2088, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:01:28], mode=BUILD, duration=0:00:03.345, duration_ms=3345, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:02:16], mode=BUILD, duration=0:00:02.171, duration_ms=2171, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:02:38], mode=BUILD, duration=0:00:03.212, duration_ms=3212, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:15:51], mode=BUILD, duration=0:00:03.533, duration_ms=3533, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:32:01], mode=BUILD, duration=0:00:02.382, duration_ms=2382, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:32:45], mode=BUILD, duration=0:00:02.309, duration_ms=2309, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:33:28], mode=BUILD, duration=0:00:03.528, duration_ms=3528, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:33:48], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:39:54], mode=BUILD, duration=0:00:03.679, duration_ms=3679, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 17:40:44], mode=BUILD, duration=0:00:00.147, duration_ms=147, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:05:24], mode=BUILD, duration=0:00:03.767, duration_ms=3767, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:11:18], mode=BUILD, duration=0:00:04.257, duration_ms=4257, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:11:29], mode=BUILD, duration=0:00:03.540, duration_ms=3540, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:15:22], mode=BUILD, duration=0:00:03.589, duration_ms=3589, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:25:52], mode=BUILD, duration=0:00:03.784, duration_ms=3784, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:29:19], mode=BUILD, duration=0:00:03.399, duration_ms=3399, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:30:31], mode=BUILD, duration=0:00:00.156, duration_ms=156, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:46:42], mode=BUILD, duration=0:00:03.698, duration_ms=3698, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-25 18:46:44], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 12:44:19], mode=WORKBENCH_START, duration=0:00:59.127, duration_ms=59127, data={}
+timestamp=[2023-05-26 12:44:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.579, duration_ms=1579, data={}
+timestamp=[2023-05-26 12:44:25], mode=WORKBENCH_UI_INIT, duration=0:00:06.410, duration_ms=6410, data={editors_count=29, platform_editors_count=14, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-26 12:53:20], mode=PLATFORM_GENERATION, duration=0:00:07.589, duration_ms=7589, data={name=design_1_wrapper}
+timestamp=[2023-05-26 12:53:30], mode=BUILD, duration=0:00:00.462, duration_ms=462, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-05-27 15:02:51], mode=WORKBENCH_START, duration=0:00:16.612, duration_ms=16612, data={}
+timestamp=[2023-05-27 15:02:54], mode=WORKBENCH_UI_INIT, duration=0:00:02.775, duration_ms=2775, data={editors_count=30, platform_editors_count=15, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-27 15:02:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.160, duration_ms=160, data={}
+timestamp=[2023-05-27 18:58:06], mode=WORKBENCH_START, duration=0:00:16.036, duration_ms=16036, data={}
+timestamp=[2023-05-27 18:58:08], mode=WORKBENCH_UI_INIT, duration=0:00:02.498, duration_ms=2498, data={editors_count=30, platform_editors_count=15, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-05-27 18:58:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.897, duration_ms=897, data={}
+timestamp=[2023-06-03 15:58:55], mode=WORKBENCH_START, duration=0:00:18.425, duration_ms=18425, data={}
+timestamp=[2023-06-03 15:58:57], mode=WORKBENCH_UI_INIT, duration=0:00:01.960, duration_ms=1960, data={editors_count=31, platform_editors_count=15, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-06-03 15:58:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.634, duration_ms=634, data={}
+timestamp=[2023-06-03 16:00:40], mode=PLATFORM_GENERATION, duration=0:01:17.038, duration_ms=77038, data={name=design_1_wrapper}
+timestamp=[2023-06-03 16:00:49], mode=BUILD, duration=0:00:00.302, duration_ms=302, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-03 16:00:58], mode=BUILD, duration=0:00:08.430, duration_ms=8430, data={name=xaxidma_example_simple_poll_1_system, configuration=Debug, clean_build=false}
+timestamp=[2023-06-03 18:30:35], mode=BUILD, duration=0:00:02.853, duration_ms=2853, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-03 18:31:18], mode=BUILD, duration=0:00:04.497, duration_ms=4497, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-03 18:32:17], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-03 19:06:32], mode=BUILD, duration=0:00:03.445, duration_ms=3445, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-03 19:26:58], mode=BUILD, duration=0:00:04.739, duration_ms=4739, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-03 19:53:15], mode=BUILD, duration=0:00:03.714, duration_ms=3714, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-03 19:58:07], mode=BUILD, duration=0:00:03.649, duration_ms=3649, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-07 13:22:59], mode=WORKBENCH_START, duration=0:00:37.013, duration_ms=37013, data={}
+timestamp=[2023-06-07 13:23:01], mode=WORKBENCH_UI_INIT, duration=0:00:02.436, duration_ms=2436, data={editors_count=33, platform_editors_count=17, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-06-07 13:23:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.140, duration_ms=1140, data={}
+timestamp=[2023-06-07 13:23:34], mode=BUILD, duration=0:00:00.672, duration_ms=672, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-07 13:29:44], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-07 13:37:26], mode=BUILD, duration=0:00:05.945, duration_ms=5945, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-07 13:37:50], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-07 13:45:45], mode=BUILD, duration=0:00:04.193, duration_ms=4193, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-07 13:47:53], mode=BUILD, duration=0:00:03.771, duration_ms=3771, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-07 13:48:07], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-08 14:39:48], mode=WORKBENCH_START, duration=0:00:55.569, duration_ms=55569, data={}
+timestamp=[2023-06-08 14:39:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.554, duration_ms=2554, data={}
+timestamp=[2023-06-08 14:39:55], mode=WORKBENCH_UI_INIT, duration=0:00:06.257, duration_ms=6257, data={editors_count=33, platform_editors_count=17, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-06-08 14:41:21], mode=WORKBENCH_START, duration=0:00:15.751, duration_ms=15751, data={}
+timestamp=[2023-06-08 14:41:24], mode=WORKBENCH_UI_INIT, duration=0:00:03.062, duration_ms=3062, data={editors_count=33, platform_editors_count=17, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-06-08 14:41:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.062, duration_ms=62, data={}
+timestamp=[2023-06-12 18:46:28], mode=WORKBENCH_START, duration=0:00:15.584, duration_ms=15584, data={}
+timestamp=[2023-06-12 18:46:31], mode=WORKBENCH_UI_INIT, duration=0:00:03.162, duration_ms=3162, data={editors_count=33, platform_editors_count=17, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-06-12 18:46:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.790, duration_ms=790, data={}
+timestamp=[2023-06-12 19:42:02], mode=BUILD, duration=0:00:00.356, duration_ms=356, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-13 14:26:35], mode=WORKBENCH_START, duration=0:00:16.060, duration_ms=16060, data={}
+timestamp=[2023-06-13 14:26:38], mode=WORKBENCH_UI_INIT, duration=0:00:02.541, duration_ms=2541, data={editors_count=34, platform_editors_count=17, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-06-13 14:26:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.618, duration_ms=618, data={}
+timestamp=[2023-06-15 12:57:27], mode=WORKBENCH_START, duration=0:00:32.444, duration_ms=32444, data={}
+timestamp=[2023-06-15 12:57:32], mode=WORKBENCH_UI_INIT, duration=0:00:04.269, duration_ms=4269, data={editors_count=36, platform_editors_count=17, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,xaxidma_example_simple_poll_1,xaxidma_example_simple_poll_1_system}
+timestamp=[2023-06-15 12:57:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.241, duration_ms=2241, data={}
+timestamp=[2023-06-15 14:45:16], mode=APP_CREATION, duration=0:00:15.457, duration_ms=15457, data={name=xaxidma_example_simple_poll_2, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=design_1_wrapper, application_type=application}
+timestamp=[2023-06-15 15:01:25], mode=PLATFORM_GENERATION, duration=0:01:06.983, duration_ms=66983, data={name=design_1_wrapper}
+timestamp=[2023-06-15 15:01:27], mode=BUILD, duration=0:00:01.529, duration_ms=1529, data={name=xaxidma_example_simple_poll_2, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:08:40], mode=BUILD, duration=0:00:00.898, duration_ms=898, data={name=xaxidma_example_simple_poll_2, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:11:42], mode=BUILD, duration=0:00:00.972, duration_ms=972, data={name=xaxidma_example_simple_poll_2, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:13:35], mode=BUILD, duration=0:00:01.533, duration_ms=1533, data={name=xaxidma_example_simple_poll_2, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:16:04], mode=BUILD, duration=0:00:00.362, duration_ms=362, data={name=xaxidma_example_simple_poll_2, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:18:43], mode=BUILD, duration=0:00:00.941, duration_ms=941, data={name=xaxidma_example_simple_poll_2, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:24:51], mode=BUILD, duration=0:00:00.850, duration_ms=850, data={name=xaxidma_example_simple_poll_2, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:39:45], mode=BUILD, duration=0:00:02.512, duration_ms=2512, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:40:09], mode=BUILD, duration=0:00:03.559, duration_ms=3559, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:43:59], mode=BUILD, duration=0:00:03.907, duration_ms=3907, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:50:55], mode=BUILD, duration=0:00:03.401, duration_ms=3401, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:55:57], mode=BUILD, duration=0:00:03.311, duration_ms=3311, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:56:18], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 15:58:48], mode=BUILD, duration=0:00:03.803, duration_ms=3803, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 16:01:22], mode=BUILD, duration=0:00:03.624, duration_ms=3624, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 16:03:42], mode=BUILD, duration=0:00:05.828, duration_ms=5828, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 16:06:08], mode=BUILD, duration=0:00:03.641, duration_ms=3641, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}
+timestamp=[2023-06-15 17:01:24], mode=BUILD, duration=0:00:01.099, duration_ms=1099, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=true}
+timestamp=[2023-06-15 17:01:29], mode=BUILD, duration=0:00:05.306, duration_ms=5306, data={name=xaxidma_example_simple_poll_1, configuration=Debug, clean_build=false}

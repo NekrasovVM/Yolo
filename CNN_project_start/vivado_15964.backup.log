@@ -1,0 +1,204 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jun 11 18:51:51 2023
+# Process ID: 15964
+# Current directory: E:/NekrasovVladiimir/CNN_project_start
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14512 E:\NekrasovVladiimir\CNN_project_start\CNN_project_start.xpr
+# Log file: E:/NekrasovVladiimir/CNN_project_start/vivado.log
+# Journal file: E:/NekrasovVladiimir/CNN_project_start\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:31 . Memory (MB): peak = 1207.188 ; gain = 50.312
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 18:53:59 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 18:59:04 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:03:01 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:06:49 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:08:09 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:09:14 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:10:17 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:17:21 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:22:10 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:23:15 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:25:13 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:26:17 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:42:57 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:45:47 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:56:10 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:57:55 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 19:58:46 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 20:00:27 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 20:01:28 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 20:03:34 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 20:05:43 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 20:07:21 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+open_bd_design {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.3 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Successfully read diagram <design_1> from block design file <E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1308.684 ; gain = 59.727
+set_property location {1 -440 28} [get_bd_cells zynq_ultra_ps_e_0]
+set_property location {1 -449 -4} [get_bd_cells zynq_ultra_ps_e_0]
+set_property location {1 -450 -160} [get_bd_cells zynq_ultra_ps_e_0]
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+startgroup
+set_property -dict [list CONFIG.PSU__SAXIGP2__DATA_WIDTH {64}] [get_bd_cells zynq_ultra_ps_e_0]
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+endgroup
+reset_run design_1_zynq_ultra_ps_e_0_1_synth_1
+save_bd_design
+Wrote  : <E:\NekrasovVladiimir\CNN_project_start\CNN_project_start.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+ERROR: [BD 41-237] Bus Interface property DATA_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(64) and /axi_ps(32)
+ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd 
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_zynq_ultra_ps_e_0_1, cache-ID = ef7c23ea176b5bef; cache size = 69.791 MB.
+ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+open_bd_design {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+startgroup
+set_property -dict [list CONFIG.PSU__SAXIGP2__DATA_WIDTH {32}] [get_bd_cells zynq_ultra_ps_e_0]
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+endgroup
+save_bd_design
+Wrote  : <E:\NekrasovVladiimir\CNN_project_start\CNN_project_start.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+launch_runs synth_1 -jobs 4
+Wrote  : <E:\NekrasovVladiimir\CNN_project_start\CNN_project_start.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/synth/design_1.v
+VHDL Output written to : E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Exporting to file E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+[Sun Jun 11 20:31:03 2023] Launched design_1_zynq_ultra_ps_e_0_1_synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/design_1_zynq_ultra_ps_e_0_1_synth_1/runme.log
+[Sun Jun 11 20:31:03 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1697.434 ; gain = 67.117
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun 11 20:32:14 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Jun 11 20:33:47 2023] Launched impl_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jun 11 20:35:58 2023] Launched impl_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_PROBE11_WIDTH {32} CONFIG.C_PROBE10_WIDTH {32} CONFIG.C_PROBE8_WIDTH {32} CONFIG.C_PROBE7_WIDTH {32} CONFIG.C_PROBE6_WIDTH {10} CONFIG.C_PROBE5_WIDTH {10} CONFIG.C_PROBE0_WIDTH {1} CONFIG.C_NUM_OF_PROBES {12}] [get_ips ila_0]
+generate_target all [get_files  E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+reset_run ila_0_synth_1
+launch_runs ila_0_synth_1 -jobs 4
+[Sun Jun 11 20:39:37 2023] Launched ila_0_synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/ip/ila_0/ila_0.xci] -directory E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.ip_user_files/sim_scripts -ip_user_files_dir E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.ip_user_files -ipstatic_source_dir E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.cache/compile_simlib/modelsim} {questa=E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.cache/compile_simlib/questa} {riviera=E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.cache/compile_simlib/riviera} {activehdl=E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_bd_design {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 11 21:02:46 2023...

@@ -1,0 +1,10 @@
+16:00:49 **** Build of configuration Debug for project xaxidma_example_simple_poll_1_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 61453 E:/NekrasovVladiimir/Training/17_dma_loopback/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_psu_cortexa53_0 E:/NekrasovVladiimir/Training/17_dma_loopback/vitis/xaxidma_example_simple_poll_1_system/Debug/system.bif
+sdcard_gen --xpfm E:/NekrasovVladiimir/Training/17_dma_loopback/vitis/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif E:/NekrasovVladiimir/Training/17_dma_loopback/vitis/xaxidma_example_simple_poll_1_system/Debug/system.bif --bitstream E:/NekrasovVladiimir/Training/17_dma_loopback/vitis/xaxidma_example_simple_poll_1/_ide/bitstream/design_1_wrapper.bit --elf E:/NekrasovVladiimir/Training/17_dma_loopback/vitis/xaxidma_example_simple_poll_1/Debug/xaxidma_example_simple_poll_1.elf,psu_cortexa53_0
+creating BOOT.BIN using E:/NekrasovVladiimir/Training/17_dma_loopback/vitis/xaxidma_example_simple_poll_1/_ide/bitstream/design_1_wrapper.bit
+Running E:/Xilinx/Vitis/2020.2/bin/bootgen -arch zynqmp -image E:/NekrasovVladiimir/Training/17_dma_loopback/vitis/xaxidma_example_simple_poll_1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+16:00:58 Build Finished (took 8s.394ms)
+

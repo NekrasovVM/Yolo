@@ -1,0 +1,55 @@
+Nothing to build in platform 'design_1_wrapper'
+
+17:01:23 **** Clean-only build of configuration Debug for project xaxidma_example_simple_poll_1 ****
+make clean 
+rm -rf  ./src/Image.o ./src/xaxidma_example_simple_poll.o  ./src/Image.d ./src/xaxidma_example_simple_poll.d  xaxidma_example_simple_poll_1.elf.size  xaxidma_example_simple_poll_1.elf
+' '
+17:01:24 **** Incremental Build of configuration Debug for project xaxidma_example_simple_poll_1 ****
+make all 
+'Building file: ../src/Image.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Image.o" -IE:/NekrasovVladiimir/Training/17_dma_loopback/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/Image.d" -MT"src/Image.o" -o "src/Image.o" "../src/Image.c"
+../src/Image.c: In function 'resize_image':
+../src/Image.c:72:6: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
+   72 |      xil_printf("here k=%d\r\n", k);
+      |      ^~~~~~~~~~
+      |      viprintf
+'Finished building: ../src/Image.c'
+' '
+'Building file: ../src/xaxidma_example_simple_poll.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -IE:/NekrasovVladiimir/Training/17_dma_loopback/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.o" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+../src/xaxidma_example_simple_poll.c:43:20: warning: initialization of 'u32 *' {aka 'unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   43 | u32* RxBufferPtr = 0x1000000;
+      |                    ^~~~~~~~~
+../src/xaxidma_example_simple_poll.c:44:15: warning: initialization of 'u32 *' {aka 'unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   44 | u32* Output = 0x1000000;
+      |               ^~~~~~~~~
+../src/xaxidma_example_simple_poll.c: In function 'XAxiDma_Setup':
+../src/xaxidma_example_simple_poll.c:226:14: warning: assignment to 'u32 *' {aka 'unsigned int *'} from 'long unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+  226 |  TxBufferPtr = (UINTPTR)sized.data;
+      |              ^
+In file included from ../src/xaxidma_example_simple_poll.c:13:
+../src/xaxidma_example_simple_poll.c: At top level:
+../src/Image.h:13:13: warning: 'add_pixel' declared 'static' but never defined [-Wunused-function]
+   13 | static void add_pixel(image m, int x, int y, int c, float val);
+      |             ^~~~~~~~~
+../src/Image.h:15:14: warning: 'get_pixel' declared 'static' but never defined [-Wunused-function]
+   15 | static float get_pixel(image m, int x, int y, int c);
+      |              ^~~~~~~~~
+../src/Image.h:16:13: warning: 'set_pixel' declared 'static' but never defined [-Wunused-function]
+   16 | static void set_pixel(image m, int x, int y, int c, float val);
+      |             ^~~~~~~~~
+'Finished building: ../src/xaxidma_example_simple_poll.c'
+' '
+'Building target: xaxidma_example_simple_poll_1.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LE:/NekrasovVladiimir/Training/17_dma_loopback/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "xaxidma_example_simple_poll_1.elf"  ./src/Image.o ./src/xaxidma_example_simple_poll.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: xaxidma_example_simple_poll_1.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size xaxidma_example_simple_poll_1.elf  |tee "xaxidma_example_simple_poll_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 224848	2085288	  23704	2333840	 239c90	xaxidma_example_simple_poll_1.elf
+'Finished building: xaxidma_example_simple_poll_1.elf.size'
+' '

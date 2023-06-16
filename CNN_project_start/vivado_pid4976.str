@@ -1,0 +1,1249 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 4976
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jun 14 17:02:29 MSK 2023
+Time zone: 	Moscow Standard Time (Europe/Moscow)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	E:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	E:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	localadmin
+User home directory: C:/Users/localadmin
+User working directory: E:/NekrasovVladiimir/CNN_project_start
+User country: 	RU
+User language: 	ru
+User locale: 	ru_RU
+
+RDI_BASEROOT: E:/Xilinx/Vivado
+HDI_APPROOT: E:/Xilinx/Vivado/2020.2
+RDI_DATADIR: E:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: E:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/localadmin/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/localadmin/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/localadmin/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	E:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/NekrasovVladiimir/CNN_project_start/vivado.log
+Vivado journal file location: 	E:/NekrasovVladiimir/CNN_project_start/vivado.jou
+Engine tmp dir: 	E:/NekrasovVladiimir/CNN_project_start/.Xil/Vivado-4976-007-03
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: E:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: E:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: E:/Xilinx/Vivado/2020.2
+XILINX_SDK: E:/Xilinx/Vitis/2020.2
+XILINX_VITIS: E:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: E:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: E:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,105 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 79 MB (+80160kb) [00:00:36]
+// [Engine Memory]: 1,105 MB (+1007667kb) [00:00:36]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: E:\NekrasovVladiimir\CNN_project_start\CNN_project_start.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,105 MB. GUI used memory: 52 MB. Current time: 6/14/23, 5:02:30 PM MSK
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 83 MB (+653kb) [00:01:54]
+// [GUI Memory]: 88 MB (+269kb) [00:01:54]
+// [GUI Memory]: 104 MB (+12145kb) [00:01:55]
+// WARNING: HEventQueue.dispatchEvent() is taking  8418 ms.
+// Tcl Message: open_project E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1059 ms.
+// [GUI Memory]: 120 MB (+11873kb) [00:01:58]
+// Tcl Message: open_project: Time (s): cpu = 00:00:42 ; elapsed = 00:01:20 . Memory (MB): peak = 1143.566 ; gain = 0.000 
+// Project name: CNN_project_start; location: E:/NekrasovVladiimir/CNN_project_start; part: xczu2cg-sfvc784-1-e
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1740 ms. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,136 MB. GUI used memory: 77 MB. Current time: 6/14/23, 5:04:00 PM MSK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 127 MB (+1005kb) [00:02:10]
+// [GUI Memory]: 135 MB (+803kb) [00:02:38]
+// Elapsed time: 43 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd)]", 1); // D
+// PAPropertyPanels.initPanels (design_1_wrapper.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 145 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 210, 178); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 92, 234); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 61, 211); // bP
+// Elapsed time: 68 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 122, 201); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 131, 199); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 103, 455); // bP
+// Elapsed time: 40 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 92, 328); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 92, 328, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 283, 233); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 185, 378); // bP
+// Elapsed time: 128 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 63, 265); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 63, 265, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 348, 264); // bP
+// Elapsed time: 22 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 142, 346); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 105, 267); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 105, 267, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 'c'); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 184, 420); // bP
+typeControlKey((HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 'v'); // bP
+// Elapsed time: 41 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 267, 439); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 105, 377); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 129, 426); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 129, 419); // bP
+typeControlKey((HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 'v'); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 112, 449); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 223, 449); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 88, 195); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 88, 195, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 138, 193); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 132, 194); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 192, 195); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 241, 418); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 258, 417); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 63, 458); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// bz (cr):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 14 17:14:28 2023] Launched synth_1... Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log [Wed Jun 14 17:14:28 2023] Launched impl_1... Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 1,158 MB. GUI used memory: 81 MB. Current time: 6/14/23, 5:14:30 PM MSK
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 709 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cr):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 147 MB (+5768kb) [00:24:32]
+// WARNING: HEventQueue.dispatchEvent() is taking  2372 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// 'Q' command handler elapsed time: 3 seconds
+dismissDialog("Open Hardware Manager"); // bz
+// Elapsed time: 639 seconds
+selectCodeEditor("design_1_wrapper.v", 302, 380); // bP
+// Elapsed time: 65 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ak
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cr):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.2   **** Build date : Nov 18 2020 at 10:01:48     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2020.2   ****** Build date   : Nov 04 2020-00:02:56     **** Build number : 2020.2.1604437376       ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 1193.688 ; gain = 17.641 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  5696 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,585 MB. GUI used memory: 86 MB. Current time: 6/14/23, 5:38:36 PM MSK
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2746.387 ; gain = 1552.699 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/Top_YOLOv3_Tiny_Project.bit} [get_hw_devices xczu2_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu2_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu2_0] 
+// Tcl Message: current_hw_device [get_hw_devices xczu2_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,588 MB (+1496395kb) [00:36:45]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xczu2_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0). 
+// Tcl Message: current_hw_device [get_hw_devices arm_dap_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0] 
+// Tcl Message: current_hw_device [get_hw_devices xczu2_0] 
+// Elapsed time: 28 seconds
+dismissDialog("Auto Connect"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h
+selectMenuItem((HResource) null, "xczu2_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xczu2_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0). 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl Command: 'get_property pfm_name [get_files -all {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}]'
+// Tcl Command: 'get_property pfm_name [get_files -all {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}]'
+// g (cr): Export Hardware Platform: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectRadioButton(PAResourceEtoH.ExportPlatformWizard_FIXED_POST_IMPL, "Include bitstream. This platform includes the complete hardware implementation and bitstream, in addition to the hardware specification for software tools."); // b
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("OptionPane.button", "Yes"); // JButton
+// Tcl Command: 'get_property pfm_name [get_files -all {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}]'
+selectButton("FINISH", "Finish"); // JButton
+// 'n' command handler elapsed time: 6 seconds
+dismissDialog("Export Hardware Platform"); // g
+// bz (cr):  Export Hardware Platform : addNotify
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa 
+// Tcl Message: INFO: [Vivado 12-4895] Creating Hardware Platform: E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa ... 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,719 MB. GUI used memory: 88 MB. Current time: 6/14/23, 5:39:06 PM MSK
+// Tcl Message: INFO: [Hsi 55-2053] elapsed time for repository (E:/Xilinx/Vivado/2020.2/data\embeddedsw) loading 3 seconds 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,798 MB. GUI used memory: 87 MB. Current time: 6/14/23, 5:39:21 PM MSK
+// Tcl Message: INFO: [Vivado 12-12467] The Hardware Platform can be used for Hardware INFO: [Vivado 12-4896] Successfully created Hardware Platform: E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa 
+// Tcl Message: write_hw_platform: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 2967.711 ; gain = 187.805 
+// [Engine Memory]: 2,798 MB (+84265kb) [00:37:38]
+// Elapsed time: 24 seconds
+dismissDialog("Export Hardware Platform"); // bz
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1294 ms to process. Increasing delay to 2000 ms.
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// o (cr): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 454 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // o
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h
+selectMenuItem((HResource) null, "xczu2_0"); // ak
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  2213 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xczu2_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// bz (cr):  Refresh Device : addNotify
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+dismissDialog("Refresh Device"); // bz
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 1); // m
+// [GUI Memory]: 161 MB (+6715kb) [00:45:58]
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u - Node
+// Elapsed time: 85 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true, false, false, false, false, true); // u - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "design_1_wrapper.v", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 2); // m
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-14 17:49:29 
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "wr_burst_req ; ==   ; [B]   ; R ; probe11[0] ; 1 of 1", 0, "wr_burst_req", 0); // A
+// HMemoryUtils.trashcanNow. Engine heap size: 2,800 MB. GUI used memory: 106 MB. Current time: 6/14/23, 5:49:36 PM MSK
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,800 MB. GUI used memory: 106 MB. Current time: 6/14/23, 5:49:38 PM MSK
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceItoN.IlaProbeTablePanel_ADD_PROBE, "IlaProbeTablePanel_new"); // E
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, rd_burst_req]", 5, false); // N
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "clk ; ==   ; [B]   ; X ; probe5[0] ; ", 1, "clk", 0); // A
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "wr_burst_req ; ==   ; [B]   ; R ; probe11[0] ; 1 of 1", 0, "wr_burst_req", 0); // A
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes wr_burst_req -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "rd_burst_req ; ==   ; [B]   ; X ; probe8[0] ; ", 0, "X", 3); // A
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "X", 0, "Value", 3); // A
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes rd_burst_req -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+selectButton(PAResourceCommand.PACommandNames_STOP_TRIGGER, "Hardware_stop_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Jun-14 17:49:53 
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-14 17:49:55 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "design_1_wrapper.v", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 2); // m
+// Elapsed time: 18 seconds
+selectButton(PAResourceItoN.IlaProbeTablePanel_ADD_PROBE, "IlaProbeTablePanel_new"); // E
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, clk]", 0, false); // N
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "rd_burst_req ; ==   ; [B]   ; R ; probe8[0] ; 1 of 1", 0, "rd_burst_req", 0); // A
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rd_burst_req -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "clk ; ==   ; [B]   ; X ; probe5[0] ; ", 0, "X", 3); // A
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "X", 0, "Value", 3); // A
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes clk -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_STOP_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_stop_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Jun-14 17:50:30 
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-14 17:50:31 
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 1); // m
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 108, 186); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 108, 186, false, false, false, false, true); // bP - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 2); // m
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "design_1_wrapper.v", 0); // m
+selectButton(PAResourceCommand.PACommandNames_STOP_TRIGGER, "Hardware_stop_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Jun-14 17:51:08 
+selectButton(PAResourceCommand.PACommandNames_PROJECT_SUMMARY, "project_summary"); // E
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SUMMARY
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 16, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  1222 ms.
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, system.xdc]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, system.xdc]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, system.xdc]", 10, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+// bz (cr):  Open Block Design : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Reading block design file <E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.3 - zynq_ultra_ps_e_0 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0 Successfully read diagram <design_1> from block design file <E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  3515 ms.
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 3037.344 ; gain = 31.895 
+dismissDialog("Open Block Design"); // bz
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_PIN
+// r (cr): Customize Pin: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2449 ms.
+// Elapsed time: 18 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Customize Pin"); // r
+// [GUI Memory]: 177 MB (+9086kb) [00:51:22]
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// N (cr):  Re-customize IP : addNotify
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+// Tcl Message: INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change  
+// r (cr): Re-customize IP: addNotify
+// [GUI Memory]: 206 MB (+21012kb) [00:51:35]
+// WARNING: HEventQueue.dispatchEvent() is taking  4091 ms.
+// Elapsed time: 13 seconds
+dismissDialog("Re-customize IP"); // N
+selectButton("I/O Configuration", "I/O Configuration"); // k
+selectButton("Clock Configuration", "Clock Configuration"); // k
+selectButton("DDR Configuration", "DDR Configuration"); // k
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k
+selectButton("DDR Configuration", "DDR Configuration"); // k
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k
+selectButton("DDR Configuration", "DDR Configuration"); // k
+selectButton("Clock Configuration", "Clock Configuration"); // k
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_CLK_TREE, "Input Reference frequency ; Input Reference frequency ; Input Reference frequency ; Input Reference frequency", 0); // ar
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_CLK_TREE, "GT Lane Reference frequency ; GT Lane Reference frequency ; GT Lane Reference frequency ; GT Lane Reference frequency", 2); // ar
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_CLK_TREE, "PCIe ; Ref Clk0 ; 100 ; 100", 3, "100", 2, false); // ar
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_CLK_TREE, "Display Port ; Ref Clk2 ; 27 ; 27", 4, "27", 2, false); // ar
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_CLK_TREE, "USB0 ; Ref Clk3 ; 26 ; 26", 5, "26", 2, false); // ar
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_CLK_TREE, "Peripheral Reference frequency ; Peripheral Reference frequency ; Peripheral Reference frequency ; Peripheral Reference frequency", 6, "Peripheral Reference frequency", 0, false); // ar
+selectTab(PAResourceOtoP.PSSPanelClockingPage_TABBED_PANE, PAResourceOtoP.PSSPanelClockingPage_OUTPUT_CLOCKS, "Output Clocks", 1); // i
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks", 0); // ar
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks", 0); // ar
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks ; Low Power Domain Clocks", 0); // ar
+selectTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 1, "Processor/Memory Clocks", 0, true); // ar - Node
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 1); // ar
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 1); // ar
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "Peripherals/IO Clocks ; Peripherals/IO Clocks ; Peripherals/IO Clocks ; Peripherals/IO Clocks ; Peripherals/IO Clocks ; Peripherals/IO Clocks ; Peripherals/IO Clocks ; Peripherals/IO Clocks", 2); // ar
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 17); // ar
+collapseTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 17); // ar
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 17); // ar
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks", 22); // ar
+expandTreeTable(PAResourceOtoP.PSSTreeTablePanelBuilder_ADV_CLK_TREE, "Full Power Domain Clocks ; Full Power Domain Clocks ; Full Power Domain Clocks ; Full Power Domain Clocks ; Full Power Domain Clocks ; Full Power Domain Clocks ; Full Power Domain Clocks ; Full Power Domain Clocks", 24); // ar
+// [GUI Memory]: 220 MB (+4128kb) [00:52:39]
+dismissDialog("Re-customize IP"); // r
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system.xdc", 5); // m
+// Elapsed time: 11 seconds
+selectCodeEditor("system.xdc", 256, 372); // bP
+selectCodeEditor("system.xdc", 256, 372, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("system.xdc", 274, 369); // bP
+selectCodeEditor("system.xdc", 290, 366); // bP
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "design_1_wrapper.v", 3); // m
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v)]", 3); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_YOLOv3_Tiny_Project(Behavioral) (Top_YOLOv3_Tiny_Project.vhd), ps_block_inst : design_1_wrapper (design_1_wrapper.v)]", 3); // D
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 3, false, true); // m - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // Q
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 3); // m
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 3, false, true); // m - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // Q
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cr): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd] 
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xczu2cg-sfvc784-1-e Top: Top_YOLOv3_Tiny_Project 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,375 MB. GUI used memory: 149 MB. Current time: 6/14/23, 5:55:47 PM MSK
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// 'dV' command handler elapsed time: 9 seconds
+// [Engine Memory]: 3,375 MB (+458794kb) [00:53:57]
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 274, 108); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 274, 108, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 303, 194); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 303, 194, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 141, 201); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 141, 201, false, false, false, false, true); // bP - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1244 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3121 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 148 MB. Current time: 6/14/23, 5:56:05 PM MSK
+// TclEventType: ELABORATE_START
+// Elapsed time: 19 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 133, 116); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 134, 116, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 150, 131); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 150, 131, false, false, false, false, true); // bP - Double Click
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 124, 179); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 124, 179, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 166, 192); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 166, 192, false, false, false, false, true); // bP - Double Click
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 149 MB. Current time: 6/14/23, 5:56:27 PM MSK
+// [Engine Memory]: 4,616 MB (+1124618kb) [00:54:36]
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 131, 179); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 131, 179, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 153, 198); // bP
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: E:/Xilinx/Vivado/2020.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu2cg/xczu2cg.xgd; ZipEntry: xczu2cg_detail.xgd elapsed time: 1.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.9s
+// [GUI Memory]: 233 MB (+1321kb) [00:54:41]
+// [GUI Memory]: 254 MB (+9812kb) [00:54:41]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 2.4s
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  5220 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xczu2cg-sfvc784-1-e 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4107.586 ; gain = 133.957 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Top_YOLOv3_Tiny_Project' [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/new/Top_YOLOv3_Tiny_Project.vhd:16] INFO: [Synth 8-6157] synthesizing module 'aq_axi_master' [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/from_docs_platform/aq_axi_master.v:39] 
+// Tcl Message: 	Parameter S_WR_IDLE bound to: 3'b000  	Parameter S_WA_WAIT bound to: 3'b001  	Parameter S_WA_START bound to: 3'b010  	Parameter S_WD_WAIT bound to: 3'b011  	Parameter S_WD_PROC bound to: 3'b100  	Parameter S_WR_WAIT bound to: 3'b101  	Parameter S_WR_DONE bound to: 3'b110  	Parameter S_RD_IDLE bound to: 3'b000  	Parameter S_RA_WAIT bound to: 3'b001  	Parameter S_RA_START bound to: 3'b010  	Parameter S_RD_WAIT bound to: 3'b011  	Parameter S_RD_PROC bound to: 3'b100  	Parameter S_RD_DONE bound to: 3'b101  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 4156.152 ; gain = 182.523 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4174.074 ; gain = 200.445 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4174.074 ; gain = 200.445 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0_2/design_1_proc_sys_reset_0_0.dcp' for cell 'ps_block_inst/design_1_i/proc_sys_reset_0' INFO: [Project 1-454] Reading design checkpoint 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_1/design_1_zynq_ultra_ps_e_0_1.dcp' for cell 'ps_block_inst/design_1_i/zynq_ultra_ps_e_0' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 4195.668 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2020.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/constrs_1/imports/new/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_YOLOv3_Tiny_Project_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/Top_YOLOv3_Tiny_Project_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4235.719 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// PAPropertyPanels.initPanels (axi_ps_awcache_pl[3]) elapsed time: 1.1s
+// WARNING: HEventQueue.dispatchEvent() is taking  1315 ms.
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:23 . Memory (MB): peak = 4468.469 ; gain = 494.840 
+// Tcl Message: 22 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:00:54 . Memory (MB): peak = 4468.469 ; gain = 1252.094 
+// Tcl Message: INFO: [Common 17-600] The following parameters have non-default value. tcl.collectionResultDisplayLimit 
+dismissDialog("Open Elaborated Design"); // bz
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system.xdc", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 2); // m
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 240, 383); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 240, 383, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 139, 387); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 139, 387, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 237, 380); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 237, 380, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 134, 386); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 134, 386, false, false, false, false, true); // bP - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system.xdc", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 2); // m
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 235, 385); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 235, 385, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 151, 386); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 151, 386, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 155, 490); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 155, 490, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 161, 492); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 161, 492, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 124, 385); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 124, 385, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 159, 487); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 159, 487, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 171, 486); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 171, 486, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 311, 490); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 311, 490, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 147, 485); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 147, 485, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 56, 489); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 57, 489, false, false, false, false, true); // bP - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 2); // m
+// Elapsed time: 25 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 128, 157); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 125, 158, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 201, 312); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 154, 266); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 154, 266, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 185, 283); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 185, 283, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 193, 283); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 193, 283, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 235, 183); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 229, 181); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 233, 185); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 229, 179); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 232, 239); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 293, 288); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 201, 242); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 201, 242, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 204, 252); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 224, 247); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 224, 247, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 258, 279); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 258, 283); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 277, 283); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 131, 145); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 131, 145, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 91, 469); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 91, 469, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 'c'); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 179, 141); // bP
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 'v'); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 272, 145); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 272, 145, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 372, 156); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 304, 177); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 127, 165); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 127, 165, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 159, 187); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 165, 180); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 165, 180, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 137, 230); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 137, 230, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 211, 247); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 211, 247, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 191, 249); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 191, 249, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 158, 266); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 158, 266, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 290, 261); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 321, 281); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 183, 277); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 183, 277, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 246, 304); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true, false, false, false, true, false); // u - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_RTL_DESIGN, "Close"); // ak
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_RTL_DESIGN
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Close Design : addNotify
+dismissDialog("Confirm Close"); // A
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 194 MB. Current time: 6/14/23, 6:00:13 PM MSK
+// Engine heap size: 4,616 MB. GUI used memory: 195 MB. Current time: 6/14/23, 6:00:13 PM MSK
+// WARNING: HEventQueue.dispatchEvent() is taking  1880 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// 'a' command handler elapsed time: 3 seconds
+dismissDialog("Close Design"); // bz
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cr): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xczu2cg-sfvc784-1-e Top: Top_YOLOv3_Tiny_Project 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 154 MB. Current time: 6/14/23, 6:00:31 PM MSK
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: E:/Xilinx/Vivado/2020.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu2cg/xczu2cg.xgd; ZipEntry: xczu2cg_detail.xgd elapsed time: 0.7s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.9s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.9s
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3271 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4501.324 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Top_YOLOv3_Tiny_Project' [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/new/Top_YOLOv3_Tiny_Project.vhd:16] INFO: [Synth 8-6157] synthesizing module 'aq_axi_master' [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/from_docs_platform/aq_axi_master.v:39] 
+// Tcl Message: 	Parameter S_WR_IDLE bound to: 3'b000  	Parameter S_WA_WAIT bound to: 3'b001  	Parameter S_WA_START bound to: 3'b010  	Parameter S_WD_WAIT bound to: 3'b011  	Parameter S_WD_PROC bound to: 3'b100  	Parameter S_WR_WAIT bound to: 3'b101  	Parameter S_WR_DONE bound to: 3'b110  	Parameter S_RD_IDLE bound to: 3'b000  	Parameter S_RA_WAIT bound to: 3'b001  	Parameter S_RA_START bound to: 3'b010  	Parameter S_RD_WAIT bound to: 3'b011  	Parameter S_RD_PROC bound to: 3'b100  	Parameter S_RD_DONE bound to: 3'b101  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4501.324 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4501.324 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4501.324 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0_2/design_1_proc_sys_reset_0_0.dcp' for cell 'ps_block_inst/design_1_i/proc_sys_reset_0' INFO: [Project 1-454] Reading design checkpoint 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_1/design_1_zynq_ultra_ps_e_0_1.dcp' for cell 'ps_block_inst/design_1_i/zynq_ultra_ps_e_0' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 4501.324 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2020.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/constrs_1/imports/new/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_YOLOv3_Tiny_Project_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/Top_YOLOv3_Tiny_Project_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4501.324 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 4511.973 ; gain = 10.648 
+// Tcl Message: 21 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 4511.973 ; gain = 10.648 
+// Tcl Message: INFO: [Common 17-600] The following parameters have non-default value. tcl.collectionResultDisplayLimit 
+// Elapsed time: 16 seconds
+dismissDialog("Open Elaborated Design"); // bz
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 2); // m
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 151, 266); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 151, 266, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 218, 261); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 218, 261, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 219, 264); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 201, 261); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 361, 363); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 206, 264); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 160, 266); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 160, 266, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 207, 280); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 301, 288); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 150, 195); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 150, 195, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 129, 164); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 129, 164, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 368, 304); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h
+// bz (cr):  Reloading : addNotify
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd] 
+// Tcl Message: refresh_design 
+// TclEventType: ELABORATE_START
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4533.719 ; gain = 19.324 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 154 MB. Current time: 6/14/23, 6:01:45 PM MSK
+// Engine heap size: 4,616 MB. GUI used memory: 154 MB. Current time: 6/14/23, 6:01:45 PM MSK
+// WARNING: HEventQueue.dispatchEvent() is taking  2367 ms.
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Top_YOLOv3_Tiny_Project' [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/new/Top_YOLOv3_Tiny_Project.vhd:16] INFO: [Synth 8-6157] synthesizing module 'aq_axi_master' [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/from_docs_platform/aq_axi_master.v:39] 
+// Tcl Message: 	Parameter S_WR_IDLE bound to: 3'b000  	Parameter S_WA_WAIT bound to: 3'b001  	Parameter S_WA_START bound to: 3'b010  	Parameter S_WD_WAIT bound to: 3'b011  	Parameter S_WD_PROC bound to: 3'b100  	Parameter S_WR_WAIT bound to: 3'b101  	Parameter S_WR_DONE bound to: 3'b110  	Parameter S_RD_IDLE bound to: 3'b000  	Parameter S_RA_WAIT bound to: 3'b001  	Parameter S_RA_START bound to: 3'b010  	Parameter S_RD_WAIT bound to: 3'b011  	Parameter S_RD_PROC bound to: 3'b100  	Parameter S_RD_DONE bound to: 3'b101  
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4560.961 ; gain = 46.566 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4578.801 ; gain = 64.406 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4578.801 ; gain = 64.406 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0_2/design_1_proc_sys_reset_0_0.dcp' for cell 'ps_block_inst/design_1_i/proc_sys_reset_0' INFO: [Project 1-454] Reading design checkpoint 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_1/design_1_zynq_ultra_ps_e_0_1.dcp' for cell 'ps_block_inst/design_1_i/zynq_ultra_ps_e_0' 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 155 MB. Current time: 6/14/23, 6:01:51 PM MSK
+// Xgd.load filename: E:/Xilinx/Vivado/2020.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu2cg/xczu2cg.xgd; ZipEntry: xczu2cg_detail.xgd elapsed time: 0.8s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.9s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.8s
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  4452 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.073 . Memory (MB): peak = 4581.188 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2020.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/constrs_1/imports/new/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_YOLOv3_Tiny_Project_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/Top_YOLOv3_Tiny_Project_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 4581.188 ; gain = 68.023 
+// Elapsed time: 18 seconds
+dismissDialog("Reloading"); // bz
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // m
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true, false, false, false, true, false); // u - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_RTL_DESIGN, "Close"); // ak
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_RTL_DESIGN
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Close Design : addNotify
+dismissDialog("Confirm Close"); // A
+// TclEventType: DESIGN_CLOSE
+// Engine heap size: 4,616 MB. GUI used memory: 155 MB. Current time: 6/14/23, 6:02:45 PM MSK
+// WARNING: HEventQueue.dispatchEvent() is taking  1463 ms.
+// TclEventType: CURR_DESIGN_SET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 156 MB. Current time: 6/14/23, 6:02:45 PM MSK
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// 'a' command handler elapsed time: 3 seconds
+dismissDialog("Close Design"); // bz
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROGRAM_DEBUG
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1073 ms.
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 19); // u
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 19); // u
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bz (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Wed Jun 14 18:02:57 2023] Launched synth_1... Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log [Wed Jun 14 18:02:58 2023] Launched impl_1... Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 355 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// Tcl Command: 'get_property pfm_name [get_files -all {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}]'
+// Tcl Command: 'get_property pfm_name [get_files -all {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}]'
+// g (cr): Export Hardware Platform: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("OptionPane.button", "Yes"); // JButton
+// Tcl Command: 'get_property pfm_name [get_files -all {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd}]'
+selectButton("FINISH", "Finish"); // JButton
+// 'n' command handler elapsed time: 5 seconds
+dismissDialog("Export Hardware Platform"); // g
+// bz (cr):  Export Hardware Platform : addNotify
+// Tcl Message: write_hw_platform -fixed -include_bit -force -file E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa 
+// Tcl Message: INFO: [Vivado 12-4895] Creating Hardware Platform: E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa ... 
+// Tcl Message: INFO: [Vivado 12-12467] The Hardware Platform can be used for Hardware INFO: [Vivado 12-4896] Successfully created Hardware Platform: E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa 
+// Tcl Message: write_hw_platform: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 4660.258 ; gain = 7.691 
+// Elapsed time: 18 seconds
+dismissDialog("Export Hardware Platform"); // bz
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Elapsed time: 109 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // m
+// Elapsed time: 33 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-14 18:11:50 
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "clk ; ==   ; [B]   ; R ; probe5[0] ; 1 of 1", 0, "clk", 0); // A
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes clk -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+selectButton(PAResourceItoN.IlaProbeTablePanel_ADD_PROBE, "IlaProbeTablePanel_new"); // E
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, rd_burst_req]", 5, false); // N
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "rd_burst_req ; ==   ; [B]   ; X ; probe8[0] ; ", 0, "X", 3); // A
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "X", 0, "Value", 3); // A
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes rd_burst_req -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Jun-14 18:12:06 
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-14 18:12:07 
+// Elapsed time: 28 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_STOP_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_stop_trigger"); // E
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Jun-14 18:12:36 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "rd_burst_req ; ==   ; [B]   ; R ; probe8[0] ; 1 of 1", 0, "rd_burst_req", 0); // A
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, rd_burst_req]", 8, false); // a
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, wr_burst_req]", 7, false); // a
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, wr_burst_finish]", 6, false); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, rd_burst_finish]", 4, false); // a
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system.xdc", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 0); // m
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 194, 366); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 194, 366, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 140, 227); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 140, 227, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 265, 232); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 265, 232, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 158, 554); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 158, 554, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 302, 555); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 302, 555, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 178, 557); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 178, 557, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 317, 557); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 317, 557, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 180, 556); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 180, 556, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 63, 556); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 63, 556, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 128, 230); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 128, 230, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 260, 230); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 260, 230, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 125, 248); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 125, 248, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 170, 266); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 170, 266, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 150, 266); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 150, 266, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 408, 340); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 396, 309); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 399, 334); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 162, 351); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 162, 351, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 181, 366); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 181, 366, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 158, 269); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 158, 269, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 340, 259); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 153, 261); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 153, 261, false, false, false, false, true); // bP - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // m
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 0); // m
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 185, 266); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 185, 266, false, false, false, false, true); // bP - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 1); // m
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // E
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-14 18:14:24 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Jun-14 18:14:24 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 157 MB. Current time: 6/14/23, 6:14:25 PM MSK
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 184 MB. Current time: 6/14/23, 6:14:30 PM MSK
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 11 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, clk]", 0, false); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 160 MB. Current time: 6/14/23, 6:14:38 PM MSK
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 4,616 MB. GUI used memory: 157 MB. Current time: 6/14/23, 6:14:39 PM MSK
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 0); // m
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 99, 351); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 99, 351, false, false, false, false, true); // bP - Double Click
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// WARNING: HEventQueue.dispatchEvent() is taking  1034 ms.
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_SYSMON_DELETE
+// o (cr): Close Hardware Target: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // o
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 73, 170); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 72, 180); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 72, 180, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 204, 173); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 204, 173, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 370, 434); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system.xdc", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 0); // m
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 664, 406); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 664, 406, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 188, 416); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system.xdc", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 0); // m
+// Elapsed time: 17 seconds
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 204, 350); // bP
+selectCodeEditor("Top_YOLOv3_Tiny_Project.vhd", 204, 350, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system.xdc", 2); // m
+selectCodeEditor("system.xdc", 415, 259); // bP
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2179 ms. Increasing delay to 4000 ms.
+// Elapsed time: 315 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton
+// Elapsed time: 51 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Top_YOLOv3_Tiny_Project.vhd", 0); // m
+// Elapsed time: 16 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 16, true); // u - Node
+closeMainWindow("CNN_project_start - [E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.xpr] - Vivado 2020.2"); // cr
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

@@ -1,0 +1,9 @@
+﻿  ImageResizing.c
+C:\Users\dns\source\repos\ImageResizing\ImageResizing\ImageResizing.c(1,1): warning C4005: _CRT_SECURE_NO_WARNINGS: изменение макроопределения
+C:\Users\dns\source\repos\ImageResizing\ImageResizing\ImageResizing.c : message : см. предыдущее определение "_CRT_SECURE_NO_WARNINGS"
+  Создание кода
+  1 of 166 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  ImageResizing.vcxproj -> C:\Users\dns\source\repos\ImageResizing\x64\Release\ImageResizing.exe

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CNN_project_start.srcs/sources_1/new/control_AXI.vhd" \
+"../../../../CNN_project_start.srcs/sources_1/new/CTRL_machine.vhd" \
+"../../../../CNN_project_start.srcs/sim_1/new/CTRL_machine_testbench.vhd" \
+
+# Do not sort compile order
+nosort

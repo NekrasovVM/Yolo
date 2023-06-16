@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CTRL_machine_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CTRL_machine_testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10487758850fs"></ZoomStartTime>
+      <ZoomEndTime time="10487834751fs"></ZoomEndTime>
+      <Cursor1Time time="10487771050fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="98" />
+   <wvobject type="divider" fp_name="divider43">
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_wr_len_out" type="array">
+      <obj_property name="ElementShortName">rd_wr_len_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_wr_len_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_addr_out" type="array">
+      <obj_property name="ElementShortName">rd_addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_burst_req" type="logic">
+      <obj_property name="ElementShortName">rd_burst_req</obj_property>
+      <obj_property name="ObjectShortName">rd_burst_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_burst_finish" type="logic">
+      <obj_property name="ElementShortName">rd_burst_finish</obj_property>
+      <obj_property name="ObjectShortName">rd_burst_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/wr_addr_out" type="array">
+      <obj_property name="ElementShortName">wr_addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/wr_burst_data" type="array">
+      <obj_property name="ElementShortName">wr_burst_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_burst_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/data_to_ddr_valid" type="logic">
+      <obj_property name="ElementShortName">data_to_ddr_valid</obj_property>
+      <obj_property name="ObjectShortName">data_to_ddr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/wr_burst_data_req" type="logic">
+      <obj_property name="ElementShortName">wr_burst_data_req</obj_property>
+      <obj_property name="ObjectShortName">wr_burst_data_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/wr_burst_finish" type="logic">
+      <obj_property name="ElementShortName">wr_burst_finish</obj_property>
+      <obj_property name="ObjectShortName">wr_burst_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/wr_burst_req" type="logic">
+      <obj_property name="ElementShortName">wr_burst_req</obj_property>
+      <obj_property name="ObjectShortName">wr_burst_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/data_to_ddr" type="array">
+      <obj_property name="ElementShortName">data_to_ddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_ddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/start_machine" type="logic">
+      <obj_property name="ElementShortName">start_machine</obj_property>
+      <obj_property name="ObjectShortName">start_machine</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Npixel" type="array">
+      <obj_property name="ElementShortName">Npixel[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Npixel[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/ROM_Npixel" type="array">
+      <obj_property name="ElementShortName">ROM_Npixel[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_Npixel[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/reset_Npixel_out" type="logic">
+      <obj_property name="ElementShortName">reset_Npixel_out</obj_property>
+      <obj_property name="ObjectShortName">reset_Npixel_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/reset_global" type="logic">
+      <obj_property name="ElementShortName">reset_global</obj_property>
+      <obj_property name="ObjectShortName">reset_global</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/length" type="array">
+      <obj_property name="ElementShortName">length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">length[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/end_frame_out" type="logic">
+      <obj_property name="ElementShortName">end_frame_out</obj_property>
+      <obj_property name="ObjectShortName">end_frame_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_pixel_rd_sum" type="array">
+      <obj_property name="ElementShortName">addr_pixel_rd_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_pixel_rd_sum[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/modifier_rd" type="array">
+      <obj_property name="ElementShortName">modifier_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">modifier_rd[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/end_work_out" type="logic">
+      <obj_property name="ElementShortName">end_work_out</obj_property>
+      <obj_property name="ObjectShortName">end_work_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/weight_en_out" type="logic">
+      <obj_property name="ElementShortName">weight_en_out</obj_property>
+      <obj_property name="ObjectShortName">weight_en_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_wr_en_out" type="logic">
+      <obj_property name="ElementShortName">rd_wr_en_out</obj_property>
+      <obj_property name="ObjectShortName">rd_wr_en_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/ROM_Npixel_to_YOLO" type="array">
+      <obj_property name="ElementShortName">ROM_Npixel_to_YOLO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_Npixel_to_YOLO[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/ROM_Nchannels_to_YOLO" type="array">
+      <obj_property name="ElementShortName">ROM_Nchannels_to_YOLO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_Nchannels_to_YOLO[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/ROM_Nfilter_to_YOLO" type="array">
+      <obj_property name="ElementShortName">ROM_Nfilter_to_YOLO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_Nfilter_to_YOLO[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/maxpool_en_to_YOLO" type="logic">
+      <obj_property name="ElementShortName">maxpool_en_to_YOLO</obj_property>
+      <obj_property name="ObjectShortName">maxpool_en_to_YOLO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/FF_work_pot" type="logic">
+      <obj_property name="ElementShortName">FF_work_pot</obj_property>
+      <obj_property name="ObjectShortName">FF_work_pot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_or_wr_finish" type="logic">
+      <obj_property name="ElementShortName">rd_or_wr_finish</obj_property>
+      <obj_property name="ObjectShortName">rd_or_wr_finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/en_count" type="logic">
+      <obj_property name="ElementShortName">en_count</obj_property>
+      <obj_property name="ObjectShortName">en_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/FF_work_pot_reg" type="logic">
+      <obj_property name="ElementShortName">FF_work_pot_reg</obj_property>
+      <obj_property name="ObjectShortName">FF_work_pot_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/work_strob" type="logic">
+      <obj_property name="ElementShortName">work_strob</obj_property>
+      <obj_property name="ObjectShortName">work_strob</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/end_work" type="logic">
+      <obj_property name="ElementShortName">end_work</obj_property>
+      <obj_property name="ObjectShortName">end_work</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/to_shift_reg" type="logic">
+      <obj_property name="ElementShortName">to_shift_reg</obj_property>
+      <obj_property name="ObjectShortName">to_shift_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/SHIFT_reg" type="array">
+      <obj_property name="ElementShortName">SHIFT_reg[8:0]</obj_property>
+      <obj_property name="ObjectShortName">SHIFT_reg[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/query_1rg" type="logic">
+      <obj_property name="ElementShortName">query_1rg</obj_property>
+      <obj_property name="ObjectShortName">query_1rg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/query_2rg" type="logic">
+      <obj_property name="ElementShortName">query_2rg</obj_property>
+      <obj_property name="ObjectShortName">query_2rg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/query_5rg" type="logic">
+      <obj_property name="ElementShortName">query_5rg</obj_property>
+      <obj_property name="ObjectShortName">query_5rg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/query_6rg" type="logic">
+      <obj_property name="ElementShortName">query_6rg</obj_property>
+      <obj_property name="ObjectShortName">query_6rg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/query_8rg" type="logic">
+      <obj_property name="ElementShortName">query_8rg</obj_property>
+      <obj_property name="ObjectShortName">query_8rg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/reset_Npixel" type="logic">
+      <obj_property name="ElementShortName">reset_Npixel</obj_property>
+      <obj_property name="ObjectShortName">reset_Npixel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/reset_Nfilter" type="logic">
+      <obj_property name="ElementShortName">reset_Nfilter</obj_property>
+      <obj_property name="ObjectShortName">reset_Nfilter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nfilter" type="array">
+      <obj_property name="ElementShortName">Nfilter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Nfilter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/reset_Nlayer" type="logic">
+      <obj_property name="ElementShortName">reset_Nlayer</obj_property>
+      <obj_property name="ObjectShortName">reset_Nlayer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/reset_Nframe" type="logic">
+      <obj_property name="ElementShortName">reset_Nframe</obj_property>
+      <obj_property name="ObjectShortName">reset_Nframe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/end_frame_pot" type="logic">
+      <obj_property name="ElementShortName">end_frame_pot</obj_property>
+      <obj_property name="ObjectShortName">end_frame_pot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/length" type="array">
+      <obj_property name="ElementShortName">length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">length[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nlayer" type="array">
+      <obj_property name="ElementShortName">Nlayer[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Nlayer[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nframe" type="array">
+      <obj_property name="ElementShortName">Nframe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Nframe[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Npixel_cmp_out" type="logic">
+      <obj_property name="ElementShortName">Npixel_cmp_out</obj_property>
+      <obj_property name="ObjectShortName">Npixel_cmp_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nfilter_cmp_out" type="logic">
+      <obj_property name="ElementShortName">Nfilter_cmp_out</obj_property>
+      <obj_property name="ObjectShortName">Nfilter_cmp_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nlayer_cmp_out" type="logic">
+      <obj_property name="ElementShortName">Nlayer_cmp_out</obj_property>
+      <obj_property name="ObjectShortName">Nlayer_cmp_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nframe_cmp_out" type="logic">
+      <obj_property name="ElementShortName">Nframe_cmp_out</obj_property>
+      <obj_property name="ObjectShortName">Nframe_cmp_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/ROM_Npixel_next" type="array">
+      <obj_property name="ElementShortName">ROM_Npixel_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_Npixel_next[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/ROM_Nfilter_decrement" type="array">
+      <obj_property name="ElementShortName">ROM_Nfilter_decrement[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_Nfilter_decrement[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/ROM_Nchannels" type="array">
+      <obj_property name="ElementShortName">ROM_Nchannels[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM_Nchannels[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/maxpool_en" type="logic">
+      <obj_property name="ElementShortName">maxpool_en</obj_property>
+      <obj_property name="ObjectShortName">maxpool_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_code" type="array">
+      <obj_property name="ElementShortName">addr_code[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_code[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_weight_rd" type="array">
+      <obj_property name="ElementShortName">addr_weight_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_weight_rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_pixel_rd" type="array">
+      <obj_property name="ElementShortName">addr_pixel_rd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_pixel_rd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/mux_addr_weight_out" type="array">
+      <obj_property name="ElementShortName">mux_addr_weight_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_addr_weight_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/mux_addr_pixel_out" type="array">
+      <obj_property name="ElementShortName">mux_addr_pixel_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_addr_pixel_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/weight_en" type="logic">
+      <obj_property name="ElementShortName">weight_en</obj_property>
+      <obj_property name="ObjectShortName">weight_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_weight_rd_sum" type="array">
+      <obj_property name="ElementShortName">addr_weight_rd_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_weight_rd_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_weight_rd_mux" type="array">
+      <obj_property name="ElementShortName">addr_weight_rd_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_weight_rd_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_pixel_rd_mux" type="array">
+      <obj_property name="ElementShortName">addr_pixel_rd_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_pixel_rd_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_init_const" type="array">
+      <obj_property name="ElementShortName">addr_init_const[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_init_const[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_addr_out_mux" type="array">
+      <obj_property name="ElementShortName">rd_addr_out_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_out_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/mux_ff_ctrl" type="logic">
+      <obj_property name="ElementShortName">mux_ff_ctrl</obj_property>
+      <obj_property name="ObjectShortName">mux_ff_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/mux_pixel_ctrl" type="logic">
+      <obj_property name="ElementShortName">mux_pixel_ctrl</obj_property>
+      <obj_property name="ObjectShortName">mux_pixel_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/mux_ctrl_offset" type="logic">
+      <obj_property name="ElementShortName">mux_ctrl_offset</obj_property>
+      <obj_property name="ObjectShortName">mux_ctrl_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/mux_ctrl_wr_addr" type="logic">
+      <obj_property name="ElementShortName">mux_ctrl_wr_addr</obj_property>
+      <obj_property name="ObjectShortName">mux_ctrl_wr_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/offset" type="array">
+      <obj_property name="ElementShortName">offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_wr_mux" type="array">
+      <obj_property name="ElementShortName">addr_wr_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_wr_sum" type="array">
+      <obj_property name="ElementShortName">addr_wr_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/offset_sum" type="array">
+      <obj_property name="ElementShortName">offset_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Frame_const_sum" type="array">
+      <obj_property name="ElementShortName">Frame_const_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Frame_const_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/offset_mux" type="array">
+      <obj_property name="ElementShortName">offset_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nframe_begin" type="array">
+      <obj_property name="ElementShortName">Nframe_begin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Nframe_begin[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_wr" type="array">
+      <obj_property name="ElementShortName">addr_wr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_wr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/rd_wr_en" type="logic">
+      <obj_property name="ElementShortName">rd_wr_en</obj_property>
+      <obj_property name="ObjectShortName">rd_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/cycle_en_next" type="logic">
+      <obj_property name="ElementShortName">cycle_en_next</obj_property>
+      <obj_property name="ObjectShortName">cycle_en_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/latch" type="logic">
+      <obj_property name="ElementShortName">latch</obj_property>
+      <obj_property name="ObjectShortName">latch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/to_offset_ce" type="logic">
+      <obj_property name="ElementShortName">to_offset_ce</obj_property>
+      <obj_property name="ObjectShortName">to_offset_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/to_and" type="logic">
+      <obj_property name="ElementShortName">to_and</obj_property>
+      <obj_property name="ObjectShortName">to_and</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_wr_ff_ce" type="logic">
+      <obj_property name="ElementShortName">addr_wr_ff_ce</obj_property>
+      <obj_property name="ObjectShortName">addr_wr_ff_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/out_ROM_CONST" type="array">
+      <obj_property name="ElementShortName">out_ROM_CONST[67:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ROM_CONST[67:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addra_ROM_ADDRESS" type="array">
+      <obj_property name="ElementShortName">addra_ROM_ADDRESS[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_ROM_ADDRESS[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/out_ROM_ADDRESS" type="array">
+      <obj_property name="ElementShortName">out_ROM_ADDRESS[83:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ROM_ADDRESS[83:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nlayer_const" type="other">
+      <obj_property name="ElementShortName">Nlayer_const</obj_property>
+      <obj_property name="ObjectShortName">Nlayer_const</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Nframe_const" type="other">
+      <obj_property name="ElementShortName">Nframe_const</obj_property>
+      <obj_property name="ObjectShortName">Nframe_const</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_bus_width" type="other">
+      <obj_property name="ElementShortName">addr_bus_width</obj_property>
+      <obj_property name="ObjectShortName">addr_bus_width</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/Frame_const" type="array">
+      <obj_property name="ElementShortName">Frame_const[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Frame_const[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/addr_first_feature_map" type="array">
+      <obj_property name="ElementShortName">addr_first_feature_map[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_first_feature_map[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CTRL_machine_testbench/CTRL_machine_inst/data_to_ddr_valid" type="logic">
+      <obj_property name="ElementShortName">data_to_ddr_valid</obj_property>
+      <obj_property name="ObjectShortName">data_to_ddr_valid</obj_property>
+   </wvobject>
+</wave_config>

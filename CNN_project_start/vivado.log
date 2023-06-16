@@ -1,0 +1,340 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jun 15 11:42:58 2023
+# Process ID: 7448
+# Current directory: E:/NekrasovVladiimir/CNN_project_start
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5276 E:\NekrasovVladiimir\CNN_project_start\CNN_project_start.xpr
+# Log file: E:/NekrasovVladiimir/CNN_project_start/vivado.log
+# Journal file: E:/NekrasovVladiimir/CNN_project_start\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 1161.238 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Device 21-403] Loading part xczu2cg-sfvc784-1-e
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.488 . Memory (MB): peak = 2055.125 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1932 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Constraints 18-5170] The checkpoint was created with non-default parameter values which do not match the current Vivado settings.  Mismatching parameters are:
+  tcl.collectionResultDisplayLimit
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2459.465 ; gain = 24.172
+Restored from archive | CPU: 6.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2459.465 ; gain = 24.172
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2919.578 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1417 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 1396 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instance 
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 4 instances
+  RAM64M8 => RAM64M8 (RAMD64E(x8)): 16 instances
+
+open_run: Time (s): cpu = 00:01:20 ; elapsed = 00:01:10 . Memory (MB): peak = 3174.516 ; gain = 2008.180
+open_report: Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 3723.945 ; gain = 545.652
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+place_ports key_start A13
+place_ports key_reset AG14
+place_ports {key_rezerv[0]} AE14
+place_ports {key_rezerv[1]} AE15
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jun 15 11:57:15 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+[Thu Jun 15 11:57:15 2023] Launched impl_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-00:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 4193.812 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 5266.777 ; gain = 1072.965
+set_property PROGRAM.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/Top_YOLOv3_Tiny_Project.bit} [get_hw_devices xczu2_0]
+set_property PROBES.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu2_0]
+current_hw_device [get_hw_devices xczu2_0]
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu2_0]
+set_property PROBES.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu2_0]
+set_property PROGRAM.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/Top_YOLOv3_Tiny_Project.bit} [get_hw_devices xczu2_0]
+program_hw_devices [get_hw_devices xczu2_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xczu2 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/debug_nets.ltx} [get_hw_devices xczu2_0]
+set_property PROGRAM.FILE {E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/Top_YOLOv3_Tiny_Project.bit} [get_hw_devices xczu2_0]
+program_hw_devices [get_hw_devices xczu2_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xczu2 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+write_hw_platform -fixed -include_bit -force -file E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (E:/Xilinx/Vivado/2020.2/data\embeddedsw) loading 2 seconds
+INFO: [Vivado 12-12467] The Hardware Platform can be used for Hardware
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa
+write_hw_platform: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 5523.020 ; gain = 230.363
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-15 12:19:29
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Jun-15 12:19:29
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jun 15 12:22:39 2023] Launched impl_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 5555.914 ; gain = 0.000
+INFO: [Vivado 12-8217] Implementation run is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-run implementation and re-generate bitstream/PDI before doing hardware export.
+write_hw_platform -fixed -include_bit -force -file E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa ...
+INFO: [Vivado 12-12467] The Hardware Platform can be used for Hardware
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: E:/NekrasovVladiimir/CNN_project_start/Top_YOLOv3_Tiny_Project.xsa
+write_hw_platform: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 5607.363 ; gain = 51.449
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes key_start_rg -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes rd_burst_req -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-15 12:29:41
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes rd_burst_req -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Jun-15 12:30:02
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes key_start_rg -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-15 12:30:16
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2023-Jun-15 12:31:00
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-15 12:31:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Jun-15 12:31:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-15 12:31:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Jun-15 12:31:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-Jun-15 12:31:21
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-Jun-15 12:31:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/bd/design_1/design_1.bd]
+refresh_design
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.486 . Memory (MB): peak = 5648.582 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1932 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+refresh_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 5648.582 ; gain = 10.207
+INFO: [Common 17-344] 'refresh_design' was cancelled
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jun 15 12:52:17 2023] Launched synth_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/synth_1/runme.log
+[Thu Jun 15 12:52:17 2023] Launched impl_1...
+Run output will be captured here: E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CTRL_machine_testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/blk_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/ROM_addr_DDR.coe'
+INFO: [SIM-utils-43] Exported 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/blk_mem_gen_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/ROM_mod.coe'
+INFO: [SIM-utils-43] Exported 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/dist_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim/ROM_const.coe'
+WARNING: [SIM-utils-65] Failed to find the IP component XML file for 'FIFO_for_SHIFT_reg' from IP_OUTPUT_DIR property! (file does not exist:'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/YOLO/ip/FIFO_for_SHIFT_reg/FIFO_for_SHIFT_reg.xml')
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/YOLO/ip/FIFO_for_SHIFT_reg/FIFO_for_SHIFT_reg.xml'
+WARNING: [SIM-utils-65] Failed to find the IP component XML file for 'bram_for_weights' from IP_OUTPUT_DIR property! (file does not exist:'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/YOLO/ip/bram_for_weights/bram_for_weights.xml')
+WARNING: [SIM-utils-52] IP component XML file does not exist: 'e:/NekrasovVladiimir/CNN_project_start/CNN_project_start.srcs/sources_1/YOLO/ip/bram_for_weights/bram_for_weights.xml'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L axi_vip_v1_1_8 -L zynq_ultra_ps_e_vip_v1_0_8 -L xilinx_vip -prj CTRL_machine_testbench_vlog.prj"
+"xvhdl --incr --relax -prj CTRL_machine_testbench_vhdl.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 5648.582 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim'
+"xelab -wto 5cbd0fb9094e4a1fa2b899db39a523d0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L blk_mem_gen_v8_4_4 -L dist_mem_gen_v8_0_13 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CTRL_machine_testbench_behav xil_defaultlib.CTRL_machine_testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 5cbd0fb9094e4a1fa2b899db39a523d0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L blk_mem_gen_v8_4_4 -L dist_mem_gen_v8_0_13 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CTRL_machine_testbench_behav xil_defaultlib.CTRL_machine_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 5648.582 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/NekrasovVladiimir/CNN_project_start/CNN_project_start.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CTRL_machine_testbench_behav -key {Behavioral:sim_1:Functional:CTRL_machine_testbench} -tclbatch {CTRL_machine_testbench.tcl} -protoinst "protoinst_files/design_1.protoinst" -view {E:/NekrasovVladiimir/CNN_project_start/CTRL_machine_testbench_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/design_1.protoinst for the following reason(s):
+There are no instances of module "design_1" in the design.
+
+Time resolution is 1 ps
+open_wave_config E:/NekrasovVladiimir/CNN_project_start/CTRL_machine_testbench_behav.wcfg
+source CTRL_machine_testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CTRL_machine_testbench.CTRL_machine_inst.ROM_addr.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CTRL_machine_testbench.CTRL_machine_inst.ROM_mod.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 5648.582 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CTRL_machine_testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:34 . Memory (MB): peak = 5648.582 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 15 17:34:02 2023...
